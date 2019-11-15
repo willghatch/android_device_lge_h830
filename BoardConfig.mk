@@ -27,3 +27,6 @@ TARGET_KERNEL_CONFIG := lineageos_h830_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/h830/BoardConfigVendor.mk
+
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
