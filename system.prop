@@ -1,2 +1,5 @@
 ro.hdmi.enable=true
+ro.hdmi.mirror.enable=true
+ro.hdmi.device_type=4
+#persist.debug.wfd.enable=1
 
